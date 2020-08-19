@@ -44,7 +44,7 @@
 		0FE2A7C422605AB20070CEA9 /* MyTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
 		0FE2A7C622605BC30070CEA9 /* MyImagePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyImagePickerController.swift; sourceTree = "<group>"; };
 		0FEF0A962243B93B009BCF7A /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
-		DD09BA1D20CE654E00720D6E /* MyBikeSpots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBikeSpots.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD09BA1D20CE654E00720D6E /* TrailHero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrailHero.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD09BA2020CE654E00720D6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD09BA2520CE654E00720D6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD09BA2720CE654F00720D6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -115,7 +115,7 @@
 		DD09BA1E20CE654E00720D6E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DD09BA1D20CE654E00720D6E /* MyBikeSpots.app */,
+				DD09BA1D20CE654E00720D6E /* TrailHero.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,9 +137,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DD09BA1C20CE654E00720D6E /* MyBikeSpots */ = {
+		DD09BA1C20CE654E00720D6E /* TrailHero */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD09BA2F20CE655000720D6E /* Build configuration list for PBXNativeTarget "MyBikeSpots" */;
+			buildConfigurationList = DD09BA2F20CE655000720D6E /* Build configuration list for PBXNativeTarget "TrailHero" */;
 			buildPhases = (
 				DD09BA1920CE654E00720D6E /* Sources */,
 				DD09BA1A20CE654E00720D6E /* Frameworks */,
@@ -149,9 +149,9 @@
 			);
 			dependencies = (
 			);
-			name = MyBikeSpots;
+			name = TrailHero;
 			productName = BullsEye;
-			productReference = DD09BA1D20CE654E00720D6E /* MyBikeSpots.app */;
+			productReference = DD09BA1D20CE654E00720D6E /* TrailHero.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -174,7 +174,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DD09BA1820CE654E00720D6E /* Build configuration list for PBXProject "MyBikeSpots" */;
+			buildConfigurationList = DD09BA1820CE654E00720D6E /* Build configuration list for PBXProject "TrailHero" */;
 			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -187,7 +187,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DD09BA1C20CE654E00720D6E /* MyBikeSpots */,
+				DD09BA1C20CE654E00720D6E /* TrailHero */,
 			);
 		};
 /* End PBXProject section */
@@ -368,8 +368,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = MyBikeSpots;
-				PRODUCT_NAME = MyBikeSpots;
+				PRODUCT_BUNDLE_IDENTIFIER = TrailHero;
+				PRODUCT_NAME = TrailHero;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -387,8 +387,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = MyBikeSpots;
-				PRODUCT_NAME = MyBikeSpots;
+				PRODUCT_BUNDLE_IDENTIFIER = TrailHero;
+				PRODUCT_NAME = TrailHero;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -397,7 +397,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DD09BA1820CE654E00720D6E /* Build configuration list for PBXProject "MyBikeSpots" */ = {
+		DD09BA1820CE654E00720D6E /* Build configuration list for PBXProject "TrailHero" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD09BA2D20CE655000720D6E /* Debug */,
@@ -406,7 +406,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD09BA2F20CE655000720D6E /* Build configuration list for PBXNativeTarget "MyBikeSpots" */ = {
+		DD09BA2F20CE655000720D6E /* Build configuration list for PBXNativeTarget "TrailHero" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD09BA3020CE655000720D6E /* Debug */,

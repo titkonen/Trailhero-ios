@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DD09BA1C20CE654E00720D6E"
-               BuildableName = "MyBikeSpots.app"
-               BlueprintName = "MyBikeSpots"
-               ReferencedContainer = "container:MyBikeSpots.xcodeproj">
+               BuildableName = "TrailHero.app"
+               BlueprintName = "TrailHero"
+               ReferencedContainer = "container:TrailHero.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -31,9 +31,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DD09BA1C20CE654E00720D6E"
-            BuildableName = "MyBikeSpots.app"
-            BlueprintName = "MyBikeSpots"
-            ReferencedContainer = "container:MyBikeSpots.xcodeproj">
+            BuildableName = "TrailHero.app"
+            BlueprintName = "TrailHero"
+            ReferencedContainer = "container:TrailHero.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <Testables>
@@ -54,9 +54,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DD09BA1C20CE654E00720D6E"
-            BuildableName = "MyBikeSpots.app"
-            BlueprintName = "MyBikeSpots"
-            ReferencedContainer = "container:MyBikeSpots.xcodeproj">
+            BuildableName = "TrailHero.app"
+            BlueprintName = "TrailHero"
+            ReferencedContainer = "container:TrailHero.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <CommandLineArguments>
@@ -81,9 +81,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DD09BA1C20CE654E00720D6E"
-            BuildableName = "MyBikeSpots.app"
-            BlueprintName = "MyBikeSpots"
-            ReferencedContainer = "container:MyBikeSpots.xcodeproj">
+            BuildableName = "TrailHero.app"
+            BlueprintName = "TrailHero"
+            ReferencedContainer = "container:TrailHero.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
