@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		0F0819FE22477FA200728456 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0819FD22477FA200728456 /* MapKit.framework */; };
 		0F081A002247807300728456 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0819FF2247807300728456 /* MapViewController.swift */; };
+		0F234C9624EDADA40055AE34 /* Spots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F234C9524EDADA40055AE34 /* Spots.swift */; };
+		0F234C9824EDADF30055AE34 /* SpotViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F234C9724EDADF30055AE34 /* SpotViews.swift */; };
+		0F234C9A24EDAE230055AE34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F234C9924EDAE230055AE34 /* ViewController.swift */; };
+		0F234C9C24EDAEA60055AE34 /* guidedspots.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F234C9B24EDAEA60055AE34 /* guidedspots.json */; };
+		0F234C9E24EDB74A0055AE34 /* testdata.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F234C9D24EDB74A0055AE34 /* testdata.json */; };
 		0F31B96E223CF775000148D1 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F31B96D223CF775000148D1 /* Functions.swift */; };
 		0F31B971223D16CB000148D1 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0F31B96F223D16CB000148D1 /* DataModel.xcdatamodeld */; };
 		0F31B974223D1DD9000148D1 /* Location+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F31B972223D1DD9000148D1 /* Location+CoreDataClass.swift */; };
@@ -31,6 +36,11 @@
 /* Begin PBXFileReference section */
 		0F0819FD22477FA200728456 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		0F0819FF2247807300728456 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		0F234C9524EDADA40055AE34 /* Spots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spots.swift; sourceTree = "<group>"; };
+		0F234C9724EDADF30055AE34 /* SpotViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotViews.swift; sourceTree = "<group>"; };
+		0F234C9924EDAE230055AE34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0F234C9B24EDAEA60055AE34 /* guidedspots.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = guidedspots.json; sourceTree = "<group>"; };
+		0F234C9D24EDB74A0055AE34 /* testdata.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = testdata.json; sourceTree = "<group>"; };
 		0F31B96D223CF775000148D1 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		0F31B970223D16CB000148D1 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		0F31B972223D1DD9000148D1 /* Location+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Location+CoreDataClass.swift"; path = "MySpots/Location+CoreDataClass.swift"; sourceTree = "<group>"; };
@@ -70,6 +80,18 @@
 				0F0819FD22477FA200728456 /* MapKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F234C9424EDAD610055AE34 /* Guided Map */ = {
+			isa = PBXGroup;
+			children = (
+				0F234C9524EDADA40055AE34 /* Spots.swift */,
+				0F234C9724EDADF30055AE34 /* SpotViews.swift */,
+				0F234C9924EDAE230055AE34 /* ViewController.swift */,
+				0F234C9B24EDAEA60055AE34 /* guidedspots.json */,
+				0F234C9D24EDB74A0055AE34 /* testdata.json */,
+			);
+			path = "Guided Map";
 			sourceTree = "<group>";
 		};
 		0F6B0F7D24195F0200F83F23 /* View Controllers */ = {
@@ -123,6 +145,7 @@
 		DD09BA1F20CE654E00720D6E /* MySpots */ = {
 			isa = PBXGroup;
 			children = (
+				0F234C9424EDAD610055AE34 /* Guided Map */,
 				DD09BA2420CE654E00720D6E /* Main.storyboard */,
 				0F6B0F7E24195F3700F83F23 /* Components */,
 				0F6B0F7D24195F0200F83F23 /* View Controllers */,
@@ -198,7 +221,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD09BA2820CE654F00720D6E /* Assets.xcassets in Resources */,
+				0F234C9C24EDAEA60055AE34 /* guidedspots.json in Resources */,
 				DD09BA2620CE654E00720D6E /* Main.storyboard in Resources */,
+				0F234C9E24EDB74A0055AE34 /* testdata.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,13 +235,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F7D40F922317B0400E71F55 /* LocationDetailsViewController.swift in Sources */,
+				0F234C9A24EDAE230055AE34 /* ViewController.swift in Sources */,
 				0F31B971223D16CB000148D1 /* DataModel.xcdatamodeld in Sources */,
+				0F234C9824EDADF30055AE34 /* SpotViews.swift in Sources */,
 				0F3EDD7B223B84C8002E6322 /* HudView.swift in Sources */,
 				0FE2A7C722605BC30070CEA9 /* MyImagePickerController.swift in Sources */,
 				0FCBD4BA224151F400094411 /* LocationsViewController.swift in Sources */,
 				0F31B975223D1DD9000148D1 /* Location+CoreDataProperties.swift in Sources */,
 				0F081A002247807300728456 /* MapViewController.swift in Sources */,
 				0F363A87225A231E000886A6 /* UIImage+Resize.swift in Sources */,
+				0F234C9624EDADA40055AE34 /* Spots.swift in Sources */,
 				0FEF0A972243B93B009BCF7A /* LocationCell.swift in Sources */,
 				0F31B96E223CF775000148D1 /* Functions.swift in Sources */,
 				DD09BA2120CE654E00720D6E /* AppDelegate.swift in Sources */,

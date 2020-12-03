@@ -19,7 +19,7 @@ class CurrentLocationViewController: UIViewController, CLLocationManagerDelegate
   @IBOutlet weak var containerView: UIView!
     
   // LET and Variables
-  let locationManager = CLLocationManager()
+  let locationManager = CLLocationManager() // Will give the GPS coordinateds
   var location: CLLocation?
   var updatingLocation = false //p.535
   var lastLocationError: Error? //p.535

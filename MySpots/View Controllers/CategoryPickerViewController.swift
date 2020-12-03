@@ -5,14 +5,13 @@ class CategoryPickerViewController: UITableViewController {
   
   let categories = [
     "No Category",
-    "Spot to nail",
-    "Spot nailed",
+    "Spot to do",
+    "Spots completed",
     "Jumps",
     "Dirts",
     "Drops",
     "Rolleys",
-    "Step Ups",
-    "Step Downs",
+    "Steps",
     "Bike Parks",
     "Flow Lines",
     "Place for obstacles"
