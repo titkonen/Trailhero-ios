@@ -125,7 +125,7 @@
 			children = (
 				0F31B972223D1DD9000148D1 /* Location+CoreDataClass.swift */,
 				0F31B973223D1DD9000148D1 /* Location+CoreDataProperties.swift */,
-				DD09BA1F20CE654E00720D6E /* MySpots */,
+				DD09BA1F20CE654E00720D6E /* Myspots */,
 				DD09BA1E20CE654E00720D6E /* Products */,
 				0F0819FC22477FA200728456 /* Frameworks */,
 			);
@@ -142,7 +142,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DD09BA1F20CE654E00720D6E /* MySpots */ = {
+		DD09BA1F20CE654E00720D6E /* Myspots */ = {
 			isa = PBXGroup;
 			children = (
 				0F234C9424EDAD610055AE34 /* Guided Map */,
@@ -154,7 +154,7 @@
 				DD09BA2C20CE655000720D6E /* Info.plist */,
 				0F31B96F223D16CB000148D1 /* DataModel.xcdatamodeld */,
 			);
-			path = MySpots;
+			path = Myspots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
